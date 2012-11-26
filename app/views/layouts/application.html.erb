@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Final</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>NAO Clinic</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
+<div id="main_header">
+<div id="header">
+  <ul>
+    <li><a href="#" class="home" title="home">home</a></li>
+    <li><a href="#" class="contact" title="contact">contact</a></li>
+     <li><a href="#" class="contact" title="contact">About Us</a></li>
+  </ul>
+  <ul class="free">
+    <li><a class="call">Free Number 44-675-674</a></li>
+  </ul>
+ 
+  
+</div>
+</div>
+</head>
 
-<%= yield %>
+<div id="main_footer">
+<div id="footer"><!--footer navigation start -->
+<ul>
+<li><button type="button" onclick="alert('Hello world!')">Sign Up</button></li>
+<li><button type="button" onclick="alert('Hello world!')">Sign In</button></li>
+<li><button type="button" onclick="alert('Hello world!')">Privacy policies</button></li>
+<li><a href="#"> Schedule your meeting</a>|</li>
+</ul>
 
-</body>
+<p>&copy; NAO. all rights reserved</p>
+<p class="de">Designed by: Nourhen, Talal, and Srinjoy</a></p>
+</div><!--footer navigation end -->
 </html>
